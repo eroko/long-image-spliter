@@ -13,6 +13,6 @@ html_code = ""
 imgs = soup.find_all('img')
 
 for i in imgs:
-    html_code += '<a href="' + i.get('src') + '"><img src="' + i.get('src') + '" width="500" />"</a>\n'
+    html_code += '<a href="' + i.get('src') + '"><img src="' + i.get('src') + '" width="500" /></a>\n'
 
 print(html_code)
